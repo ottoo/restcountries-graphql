@@ -1,0 +1,31 @@
+{
+  "name": "graphqltest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "cross-env PORT=3000 node index.js",
+    "start:watch": "cross-env PORT=3000 nodemon index.js",
+    "test": "jest",
+    "test:watch": "jest --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "1.17.2",
+    "cors": "2.8.3",
+    "cross-env": "5.0.1",
+    "express": "4.15.3",
+    "graphql": "0.10.1",
+    "graphql-server-express": "0.8.5",
+    "graphql-tools": "1.0.0",
+    "lodash": "4.17.4",
+    "request": "2.81.0",
+    "request-promise": "4.2.1"
+  },
+  "devDependencies": {
+    "casual": "1.5.14",
+    "jest": "20.0.4"
+  }
+}
