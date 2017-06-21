@@ -13,8 +13,8 @@ beforeAll(() => {
   server = run({ PORT: testPort });
 });
 
-describe('should', () => {
-  test('asd', (done) => {
+describe('find countries by name', () => {
+  test('should find one country with correct attributes', (done) => {
     const expected = [{
       name: 'Finland',
       callingCodes: ['358'],
