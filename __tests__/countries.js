@@ -5,8 +5,6 @@ const rp = require('request-promise');
 const testPort = 3333;
 const endpointUrl = `http://localhost:${testPort}/graphql`;
 
-const rrp = jest.genMockFromModule('./../countries/resolvers.js');
-
 let server;
 
 beforeAll(() => {
